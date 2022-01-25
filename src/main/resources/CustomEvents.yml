@@ -21,7 +21,7 @@
 #Again I can't stress this enough. If an event is already registered or your syntax matches another. The chances of it breaking are very high. So just be careful when doing so.
 #
 #You can enable or disable your custom events here
-CustomEvents: false
+CustomEvents: true
 # Unleash the power, and stride onwards!
 CustomEventSetup:
   NumberOfEvents: 2
@@ -32,6 +32,6 @@ CustomEventSetup:
     Event: "org.bukkit.event.player.PlayerEditBookEvent"
     Syntax: "[on] skellett player edit book"
 #If you have LibsDisguises installed, feel free to enable this event. It's disabled because some people won't have LibsDisguises installed.
-#  3:
-#    Event: "me.libraryaddict.disguise.events.DisguiseEvent"
-#    Syntax: "[on] [[Libs]Disguises] [player] disguise"
+  3:
+    Event: "me.libraryaddict.disguise.events.DisguiseEvent"
+    Syntax: "[on] [[Libs]Disguises] [player] disguise"
